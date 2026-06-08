@@ -83,7 +83,7 @@ function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
-            className="flex gap-10 mt-14 md:mt-10 flex-wrap"
+            className="flex gap-8 mt-14 md:mt-10 flex-wrap"
           >
 
             <div>
