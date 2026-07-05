@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
 import About from "../components/About";
 import Programs from "../components/Programs";
+import Gallery from "../components/Gallery.jsx";
 import ParallaxBanner from "../components/ParallaxBanner.jsx";
 // import Trainers from "../components/Trainers";
 import Pricing from "../components/Pricing.jsx";
@@ -18,6 +19,7 @@ function Home() {
       <Hero />
       <About />
       <Programs />
+      <Gallery />
       <ParallaxBanner />
       {/* <Trainers /> */}
       <Pricing />
