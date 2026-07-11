@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImage from '../assets/images/image13.jpg'
+import aboutImagesf from '../assets/images/image13-sf.jpg'
 import { motion } from 'framer-motion'
 
 const About = () => {
@@ -20,7 +21,7 @@ const About = () => {
                   transition={{ duration: 0.8 }}
                   className='flex justify-center'
                 >
-                  <img src={aboutImage} 
+                  <img src={aboutImagesf} 
                     alt="About Us" 
                     className='w-full max-w-md h-[320px] md:h-[500px] object-cover rounded-2xl shadow-2xl border border-gray-800' 
                   />

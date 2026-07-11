@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg from "../assets/images/image2.jpg";
+import heroImgsf from "../assets/images/image2-sf.jpg";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
 
@@ -10,7 +11,7 @@ function Hero() {
       className="relative h-screen bg-cover bg-right text-white flex items-center pt-24 pb-12"
 
       style={{
-        backgroundImage: `url(${heroImg})`,
+        backgroundImage: `url(${heroImgsf})`,
         backgroundPosition: "75% center",
       }}
     >

@@ -8,12 +8,12 @@ import 'swiper/css/pagination'
 import { FaArrowRight } from "react-icons/fa";
 
 // import all images 
-import weightlifting from '../assets/images/weight-lifting.png'
-import dumbbell from '../assets/images/dembbell.png'
-import cardio from '../assets/images/cardio.png'
-import strength from '../assets/images/strength-machine.png'
-import gymTraining from '../assets/images/gymTraining.png'
-import locker from '../assets/images/locker.png'
+import weightlifting from '../assets/images/weighttrain-sf.jpg'
+import dumbbell from '../assets/images/dembbell-sf.jpg'
+import cardio from '../assets/images/cardio-sf.jpg'
+import strength from '../assets/images/strength-machine-sf.jpg'
+import gymTraining from '../assets/images/gymTraining-sf.jpg'
+import locker from '../assets/images/locker-sf.jpg'
 
 
 
