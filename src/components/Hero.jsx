@@ -74,8 +74,8 @@ function Hero() {
 
             {/* Secondary Button */}            
             <button className="border border-white px-5 py-2.5 rounded-full hover:bg-white hover:text-black transition duration-300">
-              <Link to="programs" smooth={true} duration={500}>
-                Explore Programs
+              <Link to="gallery" smooth={true} duration={500}>
+                Explore Us
               </Link>
             </button>
           </motion.div>
@@ -84,7 +84,7 @@ function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
-            className="flex gap-8 mt-14 md:mt-10 flex-wrap"
+            className="flex gap-6 md:gap-8 mt-14 md:mt-10 flex-wrap"
           >
 
             <div>

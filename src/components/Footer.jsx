@@ -141,7 +141,7 @@ function Footer() {
 
               <div className="flex gap-3">
                 <FaMapMarkerAlt className="text-red-500 mt-1" />
-                <p>Kaligodam, Bihar</p>
+                <p>Rishra, West Bengal, India</p>
               </div>
 
             </div>

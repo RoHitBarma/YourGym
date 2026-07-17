@@ -27,7 +27,7 @@ const Pricing = () => {
         },
         {
             name: "Yearly",
-            price: "₹7999",
+            price: "₹4999",
             features: [
             "Unlimited Access",
             "Personal Training",
@@ -36,6 +36,18 @@ const Pricing = () => {
             ],
         },
     ];
+
+    const handlePlanJoin = (planName, planPrice) => {
+        const phoneNumber = "919876543210";
+
+        const message = `Hello Fitness Hub,%0A%0A` +
+                    `I want to take admission in the *${encodeURIComponent(planName)} Plan* (${encodeURIComponent(planPrice)}).%0A` +
+                    `Please guide me with the further admission process. Thanks!`;
+
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
+
+        window.open(whatsappURL, '_blank');
+    }
   return (
     <section id="pricing" className='py-16 bg-black text-white'>
         <div className='max-w-6xl mx-auto px-6'>
@@ -91,6 +103,7 @@ const Pricing = () => {
                         </ul>
 
                         <button
+                            onClick={() => handlePlanJoin(plan.name, plan.price)}
                             className={`
                             mt-6
                             w-full
@@ -102,16 +115,10 @@ const Pricing = () => {
 
                             ${
                                 plan.popular
-                                ? `
-                                    bg-white
-                                    text-black
-                                    hover:bg-gray-200
-                                `
-                                : `
-                                    bg-red-500
-                                    text-white
-                                    hover:bg-red-600
-                                `
+                                ? 
+                                ` bg-white text-black hover:bg-gray-200 `
+                                : 
+                                ` bg-red-500 text-white hover:bg-red-600 `
                             }
                             `}
                         >
