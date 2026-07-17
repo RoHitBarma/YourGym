@@ -15,7 +15,7 @@ const Pricing = () => {
             ],
         },
         {
-            name: "Quarterly",
+            name: "Half-Yearly",
             price: "₹2499",
             popular: true,
             features: [
